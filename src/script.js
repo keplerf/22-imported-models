@@ -33,7 +33,7 @@ gltfLoader.load("/models/Fox/glTF/Fox.gltf", (gltf) => {
 
   // Animation
   mixer = new THREE.AnimationMixer(gltf.scene);
-  const action = mixer.clipAction(gltf.animations[2]);
+  const action = mixer.clipAction(gltf.animations[1]);
   action.play();
 });
 
